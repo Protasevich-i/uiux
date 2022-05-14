@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Gilroy"),
+    url("../fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Gilroy/Gilroy-Regular.ttf") format("ttf"),
+    url("../fonts/Gilroy/Gilroy-Regular.eot") format("eot");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Manrope"),
+    url("../fonts/Gilroy/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy/Gilroy-Medium.woff") format("woff"),
+    url("../fonts/Gilroy/Gilroy-Medium.ttf") format("ttf"),
+    url("../fonts/Gilroy/Gilroy-Medium.eot") format("eot");
+}
+
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Manrope"),
+    url("../fonts/Gilroy/Gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/Gilroy/Gilroy-Bold.woff") format("woff"),
+    url("../fonts/Gilroy/Gilroy-Bold.ttf") format("ttf"),
+    url("../fonts/Gilroy/Gilroy-Bold.eot") format("eot");
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.container {
+    width: 1237px;
+    margin: 0 auto;
+    border-top: #D8D8D8 solid 1px;
+    box-sizing: border-box;
+}
+
+.Funiro, .Menu, .Account, .Connected, .Updated {
+    display: inline-block;
+    padding: 49px 0 50px 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.ml {
+    margin-left: 75px;
+}
+
+.Funiro {
+    width: 249px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin-bottom: 16px;
+}
+
+.contact {
+    margin-bottom: 16px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.funiro-a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.Menu {
+    width: 108px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Account {
+    width: 95px;
+}
+
+.Connected {
+    width: 174px;
+}
+
+.Updated {
+    width: 293px;
+}
+
+input {
+    border: none;
+    background-color: #F4F5F7;
+    color: #828282;
+    width: 242px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+input:focus {
+    outline: 1px solid #E89F71;
+}
+
+.button {
+    width: 46px;
+    height: 45px;
+    background-color: #E89F71;
+    box-sizing: border-box;
+    padding: 10px 11px 11px 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button:hover {
+    cursor: pointer;
+}
