@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif;
+    background: #D5FAFC;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.block-left {
+    width: 445px;
+    margin-top: 120px;
+    margin-left: 260px;
+    display: inline-block;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: auto;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+    line-height: 32px;
+}
+
+.hubspot {
+    border-radius: 8px;
+    background: #FFFFFF;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 32px;
+    float: right;
+}
+
+.hubbook-p {
+    width: 254px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.subtitle {
+    width: 254px;
+    margin-left: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.gray-p {
+    width: 254px;
+    margin-left: 32px;
+    color: #969BAB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Правый блок*/
+
+.block-right {
+    width: 445px;
+    margin-top: 168px;
+    margin-left: 26px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.airbnb {
+    width: 445px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.airbnb-p {
+    width: 349px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-left: 32px;
+
+}
+
+.bookmyshow {
+    width: 350px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-top: 32px;
+    padding: 32px;
+    box-sizing: border-box;
+}
