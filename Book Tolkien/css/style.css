@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.container {
+    background: antiquewhite;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.avatar {
+    border-radius: 20px;
+}
+
+.text {
+    text-align: justify;
+    text-indent: 45px;
+}
