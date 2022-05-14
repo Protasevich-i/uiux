@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+.head-h {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    width: 540px;
+    height: 64px;
+    margin: 64px 450px 8px 450px;
+    line-height: 64px;
+}
+
+.head-p {
+    text-align: center;
+    font-size: 18px;
+    width: 540px;
+    height: 64px;
+    margin: 8px 450px 0px 450px;
+    line-height: 32px;
+}
+
+.block-h {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.block-p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    line-height: 26px;
+}
+
+.block-one {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 48px 0px 0px 165px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-two {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 48px 0px 0px 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-three {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 48px 165px 0px 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-four {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 64px 0px 64px 165px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-five {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 64px 0px 64px 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-six {
+    width: 350px;
+    height: 148px;
+    text-align: center;
+    margin: 64px 165px 64px 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
